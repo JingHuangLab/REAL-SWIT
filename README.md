@@ -26,8 +26,8 @@ REAL-SWIT was developed and tested on a Linux-based GPU cluster. Most Python scr
 Clone the repository and enter the project directory:
 
 ```bash
-git clone https://github.com/JingHuangLab/REAL_SWIT.git
-cd REAL_SWIT
+git clone https://github.com/JingHuangLab/REAL-SWIT.git
+cd REAL-SWIT
 ```
 
 Create the `real_swit` environment from `environment.yml`. We recommend using micromamba for faster dependency resolution, although Conda is also supported.
