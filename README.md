@@ -4,7 +4,7 @@ REAL-SWIT is a target-guided molecular generation workflow for exploring synthes
 
 This repository contains the code, example data, and pretrained components associated with the manuscript.
 
-**Access to Synthesizable Chemical Space Through Generative Models Enables Ultra-Large Virtual Screening**  
+**Generative Access to Make-on-Demand Chemical Space Enables Ultra-Large Virtual Screening**  
 Kaiyue Zhang *et al.*
 
 
