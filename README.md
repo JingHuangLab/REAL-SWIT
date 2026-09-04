@@ -6,6 +6,7 @@ This repository contains the code, example data, and pretrained components assoc
 
 **Generative Access to Make-on-Demand Chemical Space Enables Ultra-Large Virtual Screening**  
 Kaiyue Zhang†, Ying Sun†, Xinyue Li, Yuxuan Wang, Chen Peng, Xin Jin*, Qi Hu*, and Jing Huang*
+
 † Equal contribution.
 * Corresponding authors.
 
