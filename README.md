@@ -43,7 +43,7 @@ Create the `real_swit` environment from `environment.yml`. We recommend using mi
 micromamba create -f environment.yml
 micromamba activate real_swit
 ```
-
+**Typical installation time:** Approximately 17 minutes (16 min 42 s) on a CentOS Linux 8 computing node using micromamba, including dependency resolution and package installation.
 **Alternative: Conda**
 
 ```bash
