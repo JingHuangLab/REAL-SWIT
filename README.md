@@ -270,6 +270,7 @@ The main output file is usually:
 scaffold_memory.csv
 ```
 
+**Typical demo runtime:** On an NVIDIA L40 GPU, training the target-specific scoring model on the provided demo dataset takes approximately 5 minutes, and the subsequent RL molecular generation takes approximately 7 minutes.
 
 
 ## Notes for SLURM users
