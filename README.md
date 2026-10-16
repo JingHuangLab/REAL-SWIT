@@ -1,8 +1,8 @@
 # REAL-SWIT
 
-REAL-SWIT is a target-guided molecular generation workflow for exploring synthesizable chemical space. It combines a generative model trained on REAL Space-derived molecules with a target-specific scoring model trained to approximate docking scores, enabling iterative reinforcement-learning-based generation of molecules prioritized for a given protein target.
+REAL-SWIT is a target-guided molecular generation workflow for exploring make-on-demand, synthesizable chemical space. It combines (i) a generative model trained on molecules sampled from REAL Space with (ii) a target-specific molecular scoring model trained to approximate docking scores. Reinforcement learning (RL) then guides the exploration of REAL Space–derived chemical space toward molecules with favorable predicted target-specific scores.
 
-This repository contains the code, example data, and pretrained components associated with the manuscript.
+This repository provides the research code, small demonstration datasets, and instructions for obtaining pretrained generative-model checkpoints associated with the manuscript:
 
 **Generative Access to Make-on-Demand Chemical Space Enables Ultra-Large Virtual Screening**  
 Kaiyue Zhang†, Ying Sun†, Xinyue Li, Yuxuan Wang, Chen Peng, Xin Jin*, Qi Hu*, and Jing Huang*
@@ -22,6 +22,9 @@ REAL-SWIT was developed and tested on a Linux-based GPU cluster. Most Python scr
 - Python environment specified in `environment.yml`
 - CUDA-enabled GPU recommended for model training and generation
 
+**Recorded environment:** CentOS Linux 8 (x86-64; kernel `4.18.0-348.el8.x86_64`), Python 3.8.15, PyTorch 1.9.1 (CUDA runtime 11.1), and TensorFlow 2.5.0. Other dependencies are specified in `environment.yml`.
+
+**Cluster hardware:** REAL-SWIT was developed and tested on an NVIDIA L40 GPU (46 GB memory) in a SLURM-managed computing cluster. The NVIDIA driver version was 565.57.01.
 
 ## Installation
 
